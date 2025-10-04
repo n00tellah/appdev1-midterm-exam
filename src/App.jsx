@@ -1,20 +1,10 @@
+import { useState } from "react";
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-  {/* ***** Preloader Start ***** */}
-  <div id="js-preloader" className="js-preloader">
-    <div className="preloader-inner">
-      <span className="dot" />
-      <div className="dots">
-        <span />
-        <span />
-        <span />
-      </div>
-    </div>
-  </div>
-  {/* ***** Preloader End ***** */}
+    
   {/* ***** Header Area Start ***** */}
   <header
     className="header-area header-sticky wow slideInDown"
@@ -909,13 +899,9 @@ function App() {
     </div>
   </footer>
   {/* Scripts */}
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/custom.js"></script>
+
 </>
+
 
   )
 }
